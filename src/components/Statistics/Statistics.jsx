@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { List, Item } from './Statistics.styles';
 
-export default function Statisctics({
+export default function Statistics({
   good,
   neutral,
   bad,
@@ -19,7 +19,8 @@ export default function Statisctics({
     </List>
   );
 }
-Statisctics.propTypes = {
+
+Statistics.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
